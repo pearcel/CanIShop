@@ -8,3 +8,9 @@ Git commit and push workflow
 5. commit
 6. push!!! very important
 7. if unsure check github that changes have appeared
+
+Git branching workflow
+1. click"branch"
+2. name branch-make name descriptive of what you are doing now
+3. commit changes, see workflow above
+5. when finished work on branch merge it into master
