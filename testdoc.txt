@@ -1,1 +1,10 @@
 Has the rain gone
+
+Git commit and push workflow
+1. Make cahnges to the project
+2. open git kracken
+3. stage files with changes
+4. add a commit message
+5. commit
+6. push!!! very important
+7. if unsure check github that changes have appeared
