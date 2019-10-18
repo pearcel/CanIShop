@@ -1,0 +1,10 @@
+p { margin-bottom: 0.25cm; line-height: 115% }
+		h1.western { font-family: "Liberation Sans", sans-serif; font-size: 18pt }
+		h2.western { font-family: "Liberation Sans", sans-serif; font-size: 16pt }
+		h2.cjk { font-family: "Microsoft YaHei"; font-size: 16pt }
+        h2.ctl { font-family: "Arial"; font-size: 16pt }
+        h2 {color: green;}
+		h3.western { font-family: "Liberation Sans", sans-serif }
+		h3.cjk { font-family: "Microsoft YaHei" }
+		h3.ctl { font-family: "Arial" }
+		h2 {text-shadow: yellow 3px 6px;}
