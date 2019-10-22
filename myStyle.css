@@ -9,3 +9,9 @@ p { margin-bottom: 0.25cm; line-height: 115% }
 		h3.ctl { font-family: "Arial" }
 		h2 {text-shadow: yellow 3px 6px;}
 		p .western { font-family: "Liberation Sans", sans-serif; font-size: 14pt; }
+		td.menu {
+			background-color:white;
+			}
+			td.menu:hover {
+			background-color:yellow;
+			}
