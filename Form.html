@@ -64,18 +64,31 @@ input[type=submit]:hover {
         <hr size="1">
      </body>
   
-
-     <label for="Store Location">Store Location</label>
-     <select id="Store" name="Store">
-     <option value="Please select store Street">Please select store street</option>
-     <option value="Carp Street">Carp Street</option>
-       <option value="Gipps Street">Gipps Street</option>
-       <option value="Auckland Street">Auckland Street</option>
-       <option value="Church Street">Church Steet</option>
-       <option value="Sapphire Market Place">Sapphire Market Place</option>
-       <option value="Bega Street">Bega Street</option>
-       <option value="Not in Bega">Not in Bega</option>
-     </select>
+     
+     <script type="text/javascript">
+      function Location(val){
+       var element=document.getElementById('otherlocation');
+       if(val=='Not in Bega')
+         element.style.display='block';
+       else  
+         element.style.display='none';
+      }
+      
+      </script> 
+      </head>
+      <body>
+        <select name="color" onchange='Location(this.value);'> 
+          <option>Store Location</option>  
+          <option value="red">Carp Street</option>
+          <option value="red">Gipps Street</option>
+          <option value="red">Auckland Street</option>
+          <option value="red">Bega Street</option>
+          <option value="blue">Sapphire Market Place</option>
+          <option value="Not in Bega">Not in Bega</option>
+        </select>
+        <p align="left">Please enter location. </p>
+      <input type="text" name="otherlocation" id="otherlocation" style='display:none;'/>
+      <hr>
 
     <label for="Mobility assistance">Mobility assistance</label>
     <select id="I use a" name="I use a">
