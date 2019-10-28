@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="myStyle.css" media="screen" />  
-<body lang="en-AU" dir="ltr"><p><a href="index.html">Home</a><meta name="created" content="00:00:00"><meta name="changed" content="00:00:00"></p>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -11,7 +9,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid darkgreen;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -40,32 +38,29 @@ input[type=submit]:hover {
 </style>
 </head>
 <body>
-    <title>Submit an issue with a store</title>
-<h1 class="western" align="center">Can I Shop There?.</h1>
-<h2>Submit an issue with a store.</h2>
+
+<h3>Contact Form</h3>
 
 <div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Your Name</label>
-    <input type="text" id="fname" name="Name" placeholder="Your name..">
+ <form name="form1" method="post" action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="Store Name">Store Name</label>
-    <!--Graph will catch store name from here-->
-    <input type="text" id="Store Name" name="Store Name" placeholder="The name of the store..">
-    <head>
-      <lable for "local or visitor">Are you a Local or Visitor</lable>
-      </head>
-  
-     <body>
-        <form>
-           <input type = "radio" name = "subject" value = "Local"> Local
-           <input type = "radio" name = "subject" value = "Visitor"> Visitor
-        </form>
-        <hr size="1">
-     </body>
-  
-     
-     <script type="text/javascript">
+    <label for="lname">Store Name</label>
+    <input type="text" id="lname" name="Store Name" placeholder="Store Name..">
+
+    <label for="Mobility assistance">Mobility assistance</label>
+    <select id="I use a" name="I use a">
+    <option value="I use a">I use a</option>
+    <option value="I don't use assistance">I don't use assistance</option>
+      <option value="Wheelchair">Wheelchair</option>
+      <option value="Walker">Walker</option>
+      <option value="Crutches">Crutches</option>
+      <option value="Walking Stick">Walking Stick</option>
+      <option value="Mobility Scooter">Mobility Scooter</option>
+    </select>
+
+ <script type="text/javascript">
       function Location(val){
        var element=document.getElementById('otherlocation');
        if(val=='Not in Bega')
@@ -88,29 +83,13 @@ input[type=submit]:hover {
           <option value="Not in Bega">Not in Bega</option>
         </select>
               <input type="text" name="otherlocation" id="otherlocation" style='display:none;'/>
-      <hr>
-
-    <label for="Mobility assistance">Mobility assistance</label>
-    <select id="I use a" name="I use a">
-    <option value="I use a">I use a</option>
-      <option value="Wheelchair">Wheelchair</option>
-      <option value="Walker">Walker</option>
-      <option value="Crutches">Crutches</option>
-      <option value="Walking Stick">Walking Stick</option>
-      <option value="Mobility Scooter">Mobility Scooter</option>
-    </select>
-
-    <label for="subject">Issue?</label>
-    <textarea id="subjec" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <p>Do you have a picture of the issue?</p>
-         <p class="file">
-        <input name="image" type="file" id="file" class="feedback-input">
-      </p>
-            <div class="submit">
-        <button type="submit" class="button-blue">SUBMIT</button>
-        <div class="ease"></div>
-      </div>
+    <label for="subject">Issue</label>
+    <textarea id="Issue" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<hr>
+Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <hr>
+    <input type="submit" value="Submit">
   </form>
 </div>
 
