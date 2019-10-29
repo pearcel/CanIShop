@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" type="text/css" href="myStyle.css" media="screen" />
+
+    <a href="index.html">Home</a>
+
+    <body lang="en-AU" dir="ltr"><p><br/>
+    <h1 class="western" align="center">Can I Shop There?.</h1>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -39,7 +45,7 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>Contact Form</h3>
+<h2>Contact Form</h2>
 
 <div class="container">
  <form name="form1" method="post" action="action_page.php">
@@ -52,7 +58,6 @@ input[type=submit]:hover {
     <label for="Mobility assistance">Mobility assistance</label>
     <select id="I use a" name="I use a">
     <option value="I use a">I use a</option>
-    <option value="I don't use assistance">I don't use assistance</option>
       <option value="Wheelchair">Wheelchair</option>
       <option value="Walker">Walker</option>
       <option value="Crutches">Crutches</option>
@@ -71,7 +76,7 @@ input[type=submit]:hover {
       
       </script> 
       </head>
-      <p align="left">Please enter store location. </p>
+      <p align="left">Store Location. </p>
       <body>
         <select name="Local" onchange='Location(this.value);'> 
           <option>Store Location</option>  
@@ -81,7 +86,9 @@ input[type=submit]:hover {
           <option value="Bega">Bega Street</option>
           <option value="Market Place">Sapphire Market Place</option>
           <option value="Not in Bega">Not in Bega</option>
-        </select>
+          </select>
+          <p align="left">Other location. </p>
+          <br>
               <input type="text" name="otherlocation" id="otherlocation" style='display:none;'/>
     <label for="subject">Issue</label>
     <textarea id="Issue" name="subject" placeholder="Write something.." style="height:200px"></textarea>
