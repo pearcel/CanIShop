@@ -1,30 +1,34 @@
 <?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "", "form");
- 
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
+
+$server = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "form";
+
+//creating connection for mysqli
+
+$conn = new mysqli($server, $user, $pass, $dbname);
+
+//checking connection
+
+if($conn->connect_error){
+    die("connection failed:" . $conn->connect_error);
 }
 
-$fname=name
-$sname=storeName
-$issue=issue
+$fname = mysqli_real_escape_string($conn, $_POST['fname']);
+$sname = mysqli_real_escape_string($conn, $_POST['sname']);
+$iUseA = mysqli_real_escape_string($conn, $_POST['iUseA']);
+$issue = mysqli_real_escape_string($conn, $_POST['issue']);
+$FileToUpload = mysqli_real_escape_string($conn, $_POST['fileToUpload']);
 
- 
-// Attempt insert query execution
-$sql = "INSERT INTO forms (name, storeName, issue) VALUES
-            ('$fname', '$storeName', '$issue'),
-            ('Clark', 'Kent', 'clarkkent@mail.com'),
-            ('John', 'Carter', 'johncarter@mail.com'),
-            ('Harry', 'Potter', 'harrypotter@mail.com')";
-if(mysqli_query($link, $sql)){
-    echo "Records added successfully.";
-} else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+$sql = "INSERT INTO form2 (fname, sname, iUseA, issue, fileToUpload) VALUES ('$fname', '$sname', '$iUseA', '$issue', '$fileToUpload' )";
+
+if($conn->query($sql) === TRUE){
+    echo "record added sucessfully";
+    }
+else{
+    echo"Error" . $sql . "<br/>" . $conn->error;
 }
- 
-// Close connection
-mysqli_close($link);
+$conn->close();
+
 ?>

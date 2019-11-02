@@ -6,6 +6,8 @@
 
     <body lang="en-AU" dir="ltr"><p><br/>
     <h1 class="western" align="center">Can I Shop There?.</h1>
+    <h2 class="western" align="center">This page is for submitting new issues.</h2>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -48,16 +50,16 @@ input[type=submit]:hover {
 <h2>Contact Form</h2>
 
 <div class="container">
- <form name="form1" method="post" action="action_page.php">
+    <form action="action_page.php" method="post">
     <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="fname" placeholder="Your name..">
 
-    <label for="lname">Store Name</label>
-    <input type="text" id="sname" name="Store Name" placeholder="Store Name..">
+    <label for="sname">Store Name</label>
+    <input type="text" id="sname" name="sname" placeholder="Store Name..">
 
     <label for="Mobility assistance">Mobility assistance</label>
-    <select id="I use a" name="I use a">
-    <option value="I use a">I use a</option>
+    <select id="iUseA" name="iUseA">
+    <option value="iUseA">I use a</option>
       <option value="Wheelchair">Wheelchair</option>
       <option value="Walker">Walker</option>
       <option value="Crutches">Crutches</option>
@@ -90,8 +92,8 @@ input[type=submit]:hover {
           <p align="left">Other location. </p>
           <br>
               <input type="text" name="otherlocation" id="otherlocation" style='display:none;'/>
-    <label for="subject">Issue</label>
-    <textarea id="Issue" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="issue">Issue</label>
+    <textarea id="Issue" name="issue" placeholder="Write something.." style="height:200px"></textarea>
 <hr>
 Select image to upload:
     <input type="file" name="fileToUpload" id="fileToUpload">
