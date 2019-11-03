@@ -18,10 +18,12 @@ if($conn->connect_error){
 $fname = mysqli_real_escape_string($conn, $_POST['fname']);
 $sname = mysqli_real_escape_string($conn, $_POST['sname']);
 $iUseA = mysqli_real_escape_string($conn, $_POST['iUseA']);
+$sLocation = mysqli_real_escape_string($conn, $_POST['sLocation']);
+$otherlocation = mysqli_real_escape_string($conn, $_POST['otherlocation']);
 $issue = mysqli_real_escape_string($conn, $_POST['issue']);
 $FileToUpload = mysqli_real_escape_string($conn, $_POST['fileToUpload']);
 
-$sql = "INSERT INTO form2 (fname, sname, iUseA, issue, fileToUpload) VALUES ('$fname', '$sname', '$iUseA', '$issue', '$fileToUpload' )";
+$sql = "INSERT INTO form2 (fname, sname, iUseA, sLocation, otherlocation, issue, fileToUpload) VALUES ('$fname', '$sname', '$iUseA', '$sLocation', '$otherlocation', '$issue', '$fileToUpload' )";
 
 if($conn->query($sql) === TRUE){
     echo "record added sucessfully";
