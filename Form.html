@@ -70,7 +70,7 @@ input[type=submit]:hover {
  <script type="text/javascript">
       function Location(val){
        var element=document.getElementById('otherlocation');
-       if(val=='Not in Bega')
+       if(val=='Not on the Sapphire Coast')
          element.style.display='block';
        else  
          element.style.display='none';
@@ -82,12 +82,17 @@ input[type=submit]:hover {
       <body>
         <select id="sLocation" name="sLocation" onchange='Location(this.value);'> 
           <option>Store Location</option>  
-          <option value="Carp">Carp Street</option>
-          <option value="Gipps">Gipps Street</option>
-          <option value="Auckland">Auckland Street</option>
-          <option value="Bega">Bega Street</option>
-          <option value="Market Place">Sapphire Market Place</option>
-          <option value="Not in Bega">Not in Bega</option>
+          <option value="Bega">Bega</option>
+          <option value="Bermagui">Bermagui</option>
+          <option value="Candelo">Candelo</option>
+          <option value="Cobargo">Cobargo</option>
+          <option value="Eden">Eden</option>
+          <option value="Merimbula">Merimbula</option>
+          <option value="Pambula">Pambula</option>
+          <option value="Tura Beach">Tura Beach</option>
+          <option value="Tathra">Tathra</option>
+          <option value="Kalaru">Kalaru</option>
+          <option value="Not on the Sapphire Coast">Not on the Sapphire Coast</option>
           </select>
           <p align="left">Other location. </p>
           <br>
