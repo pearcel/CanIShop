@@ -1,7 +1,7 @@
 body 
 {
-	background-color: 	#7FFFD4;
-	   }
+	background: gainsboro;
+	 }
    a:hover {
 	background-color: greenyellow;
   }
@@ -9,10 +9,10 @@ p { margin-bottom: 0.25cm; line-height: 115% }
 h1.western { font-family: "Liberation Sans", sans-serif; font-size: 26pt }
 h1 {color: darkblue;}   
 h2.western { font-family: "Liberation Sans", sans-serif; font-size:19pt }
-h2 { color:orange;}
+h2 { color:orangered;}
 		h2.cjk { font-family: "Microsoft YaHei"; font-size: 19pt }
 		h2.ctl { font-family: "Arial"; font-size: 19pt }
-		h2 {text-shadow: orangered 3px 3px;}		
+		h2 {text-shadow: orange 3px 3px;}		
    p .western { font-family: "Liberation Sans", sans-serif; font-size: 14pt; color: olivedrab; }
    .example_b {
 	color: #fff !important;
