@@ -48,11 +48,11 @@ h3.western { font-family: "Liberation Sans", sans-serif; font-size:19pt }
 			width:auto;
 		}
 		.dropdownmenu a {
-			background: #30A6E6;
-			color: #FFFFFF;
+			background: Chartreuse;
+			color: Indigo;
 			display: block;
-			font: bold 14px/20px sans-serif;
-			padding: 30px 60px;
+			font: bold 16px/24px sans-serif;
+			padding: 25px 50px;
 			text-align: center;
 			text-decoration: none;
 			-webkit-transition: all .25s ease;
@@ -62,7 +62,7 @@ h3.western { font-family: "Liberation Sans", sans-serif; font-size:19pt }
 			transition: all .25s ease;
 		}
 		.dropdownmenu li:hover a {
-			background: #000000;
+			background: DarkOrange ;
 		}
 		#submenu {
 			left: 0;
@@ -82,8 +82,8 @@ h3.western { font-family: "Liberation Sans", sans-serif; font-size:19pt }
 			width: 100%;
 		}
 		#submenu a:hover {
-			background: #DF4B05;
+			background: DodgerBlue;
 		}
 		#submenu a {
-			background-color:#000000;
+			background-color:HotPink ;
 		}
