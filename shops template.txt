@@ -1,5 +1,6 @@
- <h3 class="western" align="left">.</h3>
-        <p align="center"><img src=".jpg" name="" align="center" width="640" height="480" border="0"/>
+ <br>
+<h3 class="western" align="left">.</h3><!--The name of the store-->
+        <p align="center"><img src=".jpg" name="" align="center" width="640" height="480" border="0"/><!--Place photo here-->
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
@@ -13,12 +14,11 @@
                 </thead>
                 <tbody>
                 <tr>
-                <td></td><!--Is there an issue with the store-->
-                <td></td><!--The width of the door open-->
-                <td></td><!--The width of the isles in the shop-->
-                <td></td><!--The height of the shop counter-->
+                <td>M</td><!--Is there an issue with the store-->
+                <td>M</td><!--The width of the door open-->
+                <td>M</td><!--The width of the isles in the shop-->
+                <td>M</td><!--The height of the shop counter-->
                 <td></td><!--Assistive Technology at the couter-->
                 </tr>
-                </tfoot>
                 </table>
         <br>
