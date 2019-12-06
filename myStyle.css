@@ -51,8 +51,8 @@ h3.western { font-family: "Liberation Sans", sans-serif; font-size:19pt }
 			background: Chartreuse;
 			color: Indigo;
 			display: block;
-			font: bold 16px/24px sans-serif;
-			padding: 25px 50px;
+			font: bold 14px/18px sans-serif;
+			padding: 15px 30px;
 			text-align: center;
 			text-decoration: none;
 			-webkit-transition: all .25s ease;
