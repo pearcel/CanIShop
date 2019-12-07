@@ -1,0 +1,8 @@
+<br>
+<br>
+<br>
+<br>
+<p align="left"><img src="Photo here" name="Store name here" align="left" width="140" height="100" border="0"/>
+<h3 align="center">Store name here<meta name="created" content="00:00:00"><meta name="changed" content="00:00:00"></h3>
+<p align="center">Issue here</p>
+<br>
