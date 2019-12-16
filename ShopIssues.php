@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT sname FROM custinputf";
+$sql = "SELECT sname FROM custinputf ORDER BY sname";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
