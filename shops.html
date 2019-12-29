@@ -4,47 +4,43 @@
     <head>
         <title>Bega Shops</title>
     <a href="index.html">Home</a>
-    <style>thead {color:slateblue;}
-            tbody {color:blue;}
-            table,th,td
-            {border:1px solid black;}
-            </style>
-    <body lang="en-AU" dir="ltr"><p><br/>
+    <body lang="en-AU" dir="ltr"><p><br/>     
     <h1 class="western" align="center">Can I Shop There?.</h1>
     <h2 class="western" align="center">A list of Shops.</h2>
     </head>
 <body>
-        <br>
-        <!-- search form 3 -->
-        <form id="search-form_3">
-                <input type="text" class="search_3"/>
-                <input type="submit" class="submit_3" value="Search" />
-                </form>
+        
+        <form action="shops.php" method="post">
+                <input type="text" name="valueToSearch" placeholder="Value To Search"><br><br>
+                <input type="submit" name="search" value="Filter"><br><br>
                 <br>
         <a target="_blank" href="assistive tech.html">Assistive Technology</a>
         <br>
-        <h3 class="western" align="left">The Beauty Parlour.</h3>
+        <h3 class="western" align="left">The Fine Line Balance = Beauty.</h3><a href="https://www.google.com.au/maps/place/The+Fine+Line+Balance+%3D+Beauty/@-36.6744761,149.8450871,18z/data=!3m1!4b1!4m5!3m4!1s0x6b3e8274d4d95555:0x3265279da3f2b755!8m2!3d-36.6744783!4d149.8461814" target="_blank">Show in Google maps</a>
         <p align="center"><img src="IMG_20191124_132911.jpg" name="Image1" align="center" width="640" height="480" border="0"/>
         <table border="1" style="width:500px" align="center">
                 <thead>
-                <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
-                <th>Door Width</th><!--The width of the door open-->
-                <th>Aisle Width</th><!--The width of the aisles in the shop-->
-                <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology in store--><!--Assistive Technology website - https://at-aust.org/home/assistive_technology/assistive_technology-->
-                                          
-                </tr>
+                        <tr>
+                                <th scope="col">Issues</th>
+                                <th scope="col">Door Width</th>
+                                <th scope="col">Aisle Width</th>
+                                <th scope="col">Counter Height</th>
+                                <th scope="col">Assistive Technology</th>
+                                <th>accessible carpark location</th><!--accessible carpark location-->
+                                <th>accessible carpark distance</th><!--accessible carpark distance-->
+                                </tr>
                 </thead>
                 <tbody>
                 <tr>
-                <td>Step at door</td><!--Is there an issue with the store-->
+                <td>Disabled access via side door</td><!--Is there an issue with the store-->
                 <td>0.89m</td><!--The width of the door open-->
                 <td>N/A</td><!--The width of the aisles in the shop-->
                 <td>1.1m</td><!--The height of the shop counter-->
                 <td>Hearing augmentation</td><!--Assistive Technology in store-->
+                <td>Coles carpark</td><!--accessible carpark location-->
+                <td>180 M</td><!--accessible carpark distance-->
                 </tr>
-                </tfoot>
+                </tbody>
                 </table>
         <br>
         <h3 class="western" align="left">Super Cheap Auto.</h3>
@@ -57,8 +53,9 @@
                                 <th>Aisle Width</th>
                                 <th>Counter Height</th>
                                 <th>Assistive Technology</th>
-                                  
-                         </tr>
+                                <th>accessible carpark location</th><!--accessible carpark location-->
+                                <th>accessible carpark distance</th><!--accessible carpark distance-->
+                        </tr>
                         </thead>
                         <tbody>
                         <tr>
@@ -67,6 +64,8 @@
                         <td>1.75m</td>
                         <td>1.4m</td>
                         <td>N/A</td>
+                        <td> </td><!--accessible carpark location-->
+                        <td> M</td><!--accessible carpark distance-->
                         </tr>
                         </tfoot>
                         </table>
@@ -81,6 +80,8 @@
                            <th>Aisle Width</th>
                                 <th>Counter Height</th>
                                 <th>Assistive Technology</th>
+                                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
                                                  
                                 </tr>
                                 </thead>
@@ -91,6 +92,8 @@
                                 <td>1.75m</td>
                                 <td>1.4m</td>
                                 <td>N/A</td>
+                                <td> </td><!--accessible carpark location-->
+                                <td> M</td><!--accessible carpark distance-->
                                 </tr>
                                 </tfoot>
                                 </table>
@@ -105,6 +108,8 @@
            <th>Aisle Width</th>
                 <th>Counter Height</th>
                 <th>Assistive Technology</th>
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
                                  
                 </tr>
                 </thead>
@@ -115,7 +120,10 @@
                 <td>N/A</td>
                 <td>1.4m</td>
                 <td>N/A</td>
-                </tr>
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
+                        
+               </tr>
                 </tfoot>
                 </table>    
                 <br>
@@ -129,6 +137,8 @@
                 <th>Aisle Width</th>
                 <th>Counter Height</th>
                 <th>Assistive Technology</th>
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
                                                  
                 </tr>
                 </thead>
@@ -137,12 +147,14 @@
                 <td>N/A</td>
                 <td>2.6m</td>
                 <td>N/A</td>
-                <td>1m</td>
+                <td>1.4m</td>
                 <td>N/A</td>
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </tfoot>
                 </table>        
-<h3 class="western" align="left">Tulgeen Riverside Nursery.</h3>
+<h3 class="western" align="left">Tulgeen Riverside Nursery.</h3><a href="https://www.google.com/maps/place/Riverside+Nursery/@-36.6843936,149.8532666,17z/data=!3m1!4b1!4m5!3m4!1s0x6b3e826eee10d75b:0xecdaede0382d2ff8!8m2!3d-36.6843979!4d149.8554553" target="_blank">Show in Google maps</a>
 <p align="center"><img src="IMG_20191127_093441.jpg" name="Riverside Nursery" align="center" width="640" height="480" border="0"/>
 <table border="1" style="width:500px" align="center">
         <thead>
@@ -152,7 +164,8 @@
         <th>Aisle Width</th><!--The width of the aisles in the shop-->
         <th>Counter Height</th><!--The height of the shop counter-->
         <th>Assistive Technology</th><!--Assistive Technology in store-->
-                  
+        <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
         </tr>
         </thead>
         <tbody>
@@ -160,8 +173,10 @@
         <td>N/A</td><!--Is there an issue with the store-->
         <td>3.2M</td><!--The width of the door open-->
         <td>1.8M</td><!--The width of the aisles in the shop-->
-        <td>0.92M</td><!--The height of the shop counter-->
+        <td>1.6M</td><!--The height of the shop counter-->
         <td>N/A</td><!--Assistive Technology in store-->
+        <td> </td><!--accessible carpark location-->
+        <td> M</td><!--accessible carpark distance-->
         </tr>
         </tfoot>
         </table>
@@ -175,7 +190,9 @@
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the aisles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
                           
                 </tr>
                 </thead>
@@ -185,7 +202,9 @@
                 <td>2.5M</td><!--The width of the door open-->
                 <td>M</td><!--The width of the aisles in the shop-->
                 <td>M</td><!--The height of the shop counter-->
-                <td></td><!--Assistive Technology at the couter-->
+                <td></td><!--Assistive Technology at the counter-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </tfoot>
                 </table>
@@ -200,8 +219,9 @@
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the aisles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                                          
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->                          
                 </tr>
                 </thead>
                 <tbody>
@@ -210,7 +230,9 @@
                 <td>M</td><!--The width of the door open-->
                 <td>M</td><!--The width of the aisles in the shop-->
                 <td>M</td><!--The height of the shop counter-->
-                <td></td><!--Assistive Technology at the couter-->
+                <td></td><!--Assistive Technology at the counter-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </table>
                 <br>
@@ -224,8 +246,9 @@
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                          
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                <th>accessible carpark distance</th><!--accessible carpark distance-->         
                 </tr>
                 </thead>
                 <tbody>
@@ -234,7 +257,9 @@
                 <td>M</td><!--The width of the door open-->
                 <td>M</td><!--The width of the aisles in the shop-->
                 <td>M</td><!--The height of the shop counter-->
-                <td></td><!--Assistive Technology at the couter-->
+                <td></td><!--Assistive Technology at the counter-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </table>
         <br>
@@ -248,8 +273,9 @@
                         <th>Door Width</th><!--The width of the door open-->
                         <th>Aisle Width</th><!--The width of the aisles in the shop-->
                         <th>Counter Height</th><!--The height of the shop counter-->
-                        <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                                  
+                        <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                        <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
                         </tr>
                         </thead>
                         <tbody>
@@ -258,7 +284,9 @@
                         <td>M</td><!--The width of the door open-->
                         <td>M</td><!--The width of the aisles in the shop-->
                         <td>M</td><!--The height of the shop counter-->
-                        <td></td><!--Assistive Technology at the couter-->
+                        <td></td><!--Assistive Technology at the counter-->
+                        <td> </td><!--Assistive Technology in store-->
+                        <td> M</td><!--accessible carpark distance-->
                         </tr>
                         </table>
         <br>
@@ -272,8 +300,9 @@
                             <th>Door Width</th><!--The width of the door open-->
                             <th>Isle Width</th><!--The width of the aisles in the shop-->
                             <th>Counter Height</th><!--The height of the shop counter-->
-                            <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                                         
+                            <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                            <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->             
                             </tr>
                             </thead>
                             <tbody>
@@ -283,6 +312,8 @@
                             <td> M</td><!--The width of the aisles in the shop-->
                             <td> M</td><!--The height of the shop counter-->
                             <td> </td><!--Assistive Technology in store-->
+                            <td> </td><!--accessible carpark location-->
+                                <td> M</td><!--accessible carpark distance-->
                             </tr>
                             </table>
         <br>
@@ -296,8 +327,9 @@
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                          
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -307,6 +339,8 @@
                 <td> M</td><!--The width of the aisles in the shop-->
                 <td> M</td><!--The height of the shop counter-->
                 <td> </td><!--Assistive Technology in store-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </table>
         <br>
@@ -318,10 +352,11 @@
                 <tr>
                 <th>Issue</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
-                <th>Aisle Width</th><!--The width of the aisles in the shop-->
+                <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                          
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -331,6 +366,8 @@
                 <td> M</td><!--The width of the aisles in the shop-->
                 <td> M</td><!--The height of the shop counter-->
                 <td> </td><!--Assistive Technology in store-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </table>
         <br>
@@ -344,8 +381,9 @@
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                          
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -355,6 +393,8 @@
                 <td> M</td><!--The width of the aisles in the shop-->
                 <td> M</td><!--The height of the shop counter-->
                 <td> </td><!--Assistive Technology in store-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </table>
         <br>
@@ -368,8 +408,9 @@
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
-                <th>Assistive Technology</th><!--Assistive Technology at the couter-->
-                          
+                <th>Assistive Technology</th><!--Assistive Technology at the counter-->
+                <th>accessible carpark location</th><!--accessible carpark location-->
+                <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -379,9 +420,66 @@
                 <td> M</td><!--The width of the aisles in the shop-->
                 <td> M</td><!--The height of the shop counter-->
                 <td> </td><!--Assistive Technology in store-->
+                <td> </td><!--accessible carpark location-->
+                <td> M</td><!--accessible carpark distance-->
                 </tr>
                 </table>
         <br>
-        <br>                                           
+        <br>
+        <h3 class="western" align="left">KFC.</h3><!--The name of the store-->
+                <p align="center"><img src="soon.jpg" name="KFC" align="center" width="640" height="480" border="0"/><!--Place photo here-->
+                <table border="1" style="width:500px" align="center">
+                        <thead>
+                        <tr>
+                        <th>Issue</th><!--Is there an issue with the store-->
+                        <th>Door Width</th><!--The width of the door open-->
+                        <th>Aisle Width</th><!--The width of the isles in the shop-->
+                        <th>Counter Height</th><!--The height of the shop counter-->
+                        <th>Assistive Technology</th><!--Assistive Technology in the store/office-->
+                        <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
+                                  
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td> </td><!--Is there an issue with the store-->
+                        <td> 1.8M</td><!--The width of the door open-->
+                        <td> N/A</td><!--The width of the aisles in the shop-->
+                        <td> 1.2M</td><!--The height of the shop counter-->
+                        <td> </td><!--Assistive Technology in store-->
+                        <td>Near Dan Murphy's </td><!--accessible carpark location-->
+                        <td> 84M</td><!--accessible carpark distance-->
+                        </tr>
+                        </table>
+        <br>   
+        <br>
+        <h3 class="western" align="left">Bega News agency.</h3><!--The name of the store-->
+                <p align="center"><img src="soon.jpg" name="Bega News agency" align="center" width="640" height="480" border="0"/><!--Place photo here-->
+                <table border="1" style="width:500px" align="center">
+                        <thead>
+                        <tr>
+                        <th>Issue</th><!--Is there an issue with the store-->
+                        <th>Door Width</th><!--The width of the door open-->
+                        <th>Aisle Width</th><!--The width of the isles in the shop-->
+                        <th>Counter Height</th><!--The height of the shop counter-->
+                        <th>Assistive Technology</th><!--Assistive Technology in the store/office-->
+                        <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
+                                  
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>N/A </td><!--Is there an issue with the store-->
+                        <td>1.4 M</td><!--The width of the door open-->
+                        <td>1 M</td><!--The width of the aisles in the shop-->
+                        <td>0.98 M</td><!--The height of the shop counter-->
+                        <td>N/A </td><!--Assistive Technology in store-->
+                        <td>Opposite Dan Murphy's </td><!--accessible carpark location-->
+                        <td>82 M</td><!--accessible carpark distance-->
+                        </tr>
+                        </table>
+                <br>                                
 </body>
 </html>

@@ -2,7 +2,11 @@ body
 {
 	background: gainsboro;
 	 }
-   
+	 
+	  table, th, td {
+		border: 3px solid RoyalBlue ;
+	  }
+	  
 p { margin-bottom: 0.25cm; line-height: 115% }
 h1.western { font-family: "Liberation Sans", sans-serif; font-size: 26pt }
 h1 {color: darkblue;}   
