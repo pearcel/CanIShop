@@ -6,7 +6,7 @@
                 <tr>
                 <th>Issue</th><!--Is there an issue with the Office-->
                 <th>Door Width</th><!--The width of the door open-->
-                <th>Counter Height</th><!--The height of the shop counter-->
+                <th>Counter Height</th><!--The height of the office counter-->
                 <th>Assistive Technology</th><!--Assistive Technology at the couter-->
                           
                 </tr>
