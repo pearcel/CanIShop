@@ -114,82 +114,58 @@ h3.western { font-family: "Liberation Sans", sans-serif; font-size:19pt }
 	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
 	}
 	
-	/*** TEXT BOX ***/
-	.search_3{
-	background: #fafafa; /* Fallback color for non-css3 browsers */
-	
-	/* Gradients */
-	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
-	background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
-	border: 0;
-	border-bottom: 1px solid #fff;
-	border-right: 1px solid rgba(255,255,255,.8);
-	font-size: 16px;
-	margin: 4px;
-	padding: 5px;
-	width: 250px;
-	
-	/* Rounded Corners */
-	border-radius: 17px;
-	-webkit-border-radius: 17px;
-	-moz-border-radius: 17px;
-	
-	/* Shadows */
-	box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
-	-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
-	-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	#searchbox{
+		background-color: #eaf8fc;
+		background-image: linear-gradient(#f0f0f0, #ccc);
+		border-radius: 35px;    
+		border-width: 1px;
+		border-style: solid;
+		border-color: #c4d9df #a4c3ca #83afb7;            
+		width: 445px;
+		height: 35px;
+		padding: 10px;
+		margin: 100px auto 50px;
+		overflow: hidden;
 	}
-	
-	/*** USER IS FOCUSED ON TEXT BOX ***/
-	.search_3:focus{
-	outline: none;
-	background: #fff; /* Fallback color for non-css3 browsers */
-	
-	/* Gradients */
-	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
-	background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+	#search, #submit{
+    	float: left;
 	}
-	
-	/*** SEARCH BUTTON ***/
-	.submit_3{
-	background: #44921f;/* Fallback color for non-css3 browsers */
-	/* Gradients */
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(79,188,32)), color-stop(0.15, rgb(73,157,34)), color-stop(0.88, rgb(62,135,28)), color-stop(1, rgb(49,114,21)));
-	background: -moz-linear-gradient( center top, rgb(79,188,32) 0%, rgb(73,157,34) 15%, rgb(62,135,28) 88%, rgb(49,114,21) 100%);
-	border: 0;
-	color: #eee;
-	cursor: pointer;
-	float: right;
-	font: 16px 'Raleway', sans-serif;
-	font-weight: bold;
-	height: 30px;
-	margin: 4px 4px 0;
-	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-	width: 84px;
-	outline: none;
-	
-	/* Rounded Corners */
-	border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	
-	/* Shadows */
-	box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
-	-moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
-	-webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+
+	#search {
+		padding: 5px 9px;
+		height: 23px;
+		width: 370px;
+		border: 1px solid #CCC;
+		font: normal 13px 'trebuchet MS', arial, helvetica;
+		background: #ccc;
+		border-radius: 50px 3px 3px 50px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
 	}
-	/*** SEARCH BUTTON HOVER ***/
-	.submit_3:hover {
-	background: #4ea923; /* Fallback color for non-css3 browsers */
-	
-	/* Gradients */
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
-	background: -moz-linear-gradient( center top, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+	#search:focus{
+		background-color:#f1f1f1;
+		outline:0;
 	}
-	.submit_3:active {
-	background: #4ea923; /* Fallback color for non-css3 browsers */
-	
-	/* Gradients */
-	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
-	background: -moz-linear-gradient( center bottom, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+	#submit{
+		background:#ccc;       
+		background-image:url(images/search1.png);
+		background-repeat: no-repeat;
+		border-radius: 3px 50px 50px 3px;
+		border: 1px solid #CCC;   
+		box-shadow:0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+		height: 23px;
+		margin: 0 0 0 -3px;
+		padding: 5px;
+		width: 40px;
+		cursor: pointer;
+		font: bold 14px Arial, Helvetica;
+		color: #23441e;    
+		text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	}
+	#submit:hover{
+		background-color:#999;
+		outline:none;
+	}
+	#submit:active{
+		outline:none;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
 	}

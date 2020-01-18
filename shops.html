@@ -7,12 +7,20 @@
     <body lang="en-AU" dir="ltr"><p><br/>     
     <h1 class="western" align="center">Can I Shop There?.</h1>
     <h2 class="western" align="center">A list of Shops.</h2>
-    </head>
+    <script type="text/javascript">
+	function buttonSwap(image){
+		var sb = document.getElementById('submit');
+		sb.src = "images/"+image;
+	}
+</script>
+</head>
 <body>
         
-        <form action="shops.php" method="post">
-                <input type="text" name="valueToSearch" placeholder="Value To Search"><br><br>
-                <input type="submit" name="search" value="Filter"><br><br>
+        <form id="searchbox" action="shops.php">
+                <input id="search" type="text" placeholder="Search...">
+                <input id="submit" type="image" src="images/search1.png" onmouseover="buttonSwap('search2.png')" onmouseout="buttonSwap('search1.png')">
+                </form>
+        
                 <br>
         <a target="_blank" href="assistive tech.html">Assistive Technology</a>
         <br>
@@ -21,13 +29,13 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                         <tr>
-                                <th scope="col">Issues</th>
+                                <th scope="col">issue/recommendation</th>
                                 <th scope="col">Door Width</th>
                                 <th scope="col">Aisle Width</th>
                                 <th scope="col">Counter Height</th>
                                 <th scope="col">Assistive Technology</th>
-                                <th>accessible carpark location</th><!--accessible carpark location-->
-                                <th>accessible carpark distance</th><!--accessible carpark distance-->
+                                <th scope="col">accessible carpark location</th><!--accessible carpark location-->
+                                <th scope="col">accessible carpark distance</th><!--accessible carpark distance-->
                                 </tr>
                 </thead>
                 <tbody>
@@ -37,7 +45,7 @@
                 <td>N/A</td><!--The width of the aisles in the shop-->
                 <td>1.1m</td><!--The height of the shop counter-->
                 <td>Hearing augmentation</td><!--Assistive Technology in store-->
-                <td>Coles carpark</td><!--accessible carpark location-->
+                <td><a href="images/c2flb.jpg" target="_blank">Coles Carpark</a></td><!--accessible carpark location-->
                 <td>180 M</td><!--accessible carpark distance-->
                 </tr>
                 </tbody>
@@ -48,7 +56,7 @@
                 <table border="1" style="width:500px" align="center">
                         <thead>
                         <tr>
-                                <th>Issue</th>
+                                <th>issue/recommendation</th>
                                 <th>Door Width</th>
                                 <th>Aisle Width</th>
                                 <th>Counter Height</th>
@@ -75,7 +83,7 @@
                 <table border="1" style="width:500px" align="center">
                         <thead>
                        <tr>
-                           <th>Issue</th>
+                           <th>issue/recommendation</th>
                            <th>Door Width</th>
                            <th>Aisle Width</th>
                                 <th>Counter Height</th>
@@ -99,11 +107,13 @@
                                 </table>
 <br>
 <h3 class="western" align="left">Frill Neck Frames.</h3>
-<p align="center"><img src="IMG_20191124_1332591.jpg" name="Frill Neck Frames" align="center" width="400" height="480" border="0"/>
+<p align="center"><a href="soon2.jpg" target="_blank">
+        <img src="IMG_20191124_1332591.jpg" name= "C:\wamp\www\REPtest\soon2.JPG" align="center" width="640" height="480" border="0"/>
+</a></p>
 <table border="1" style="width:500px" align="center">
         <thead>
        <tr>
-           <th>Issue</th>
+           <th>issue/recommendation</th>
            <th>Door Width</th>
            <th>Aisle Width</th>
                 <th>Counter Height</th>
@@ -128,17 +138,19 @@
                 </table>    
                 <br>
 <h3 class="western" align="left">Mobility Matters.</h3>
-<p align="center"><img src="IMG_20191124_1332592.jpg" name="Mobility Matters" align="center" width="400" height="480" border="0"/>
+<p align="center"><a href="soon2.jpg" target="_blank">
+        <img src="IMG_20191124_1332592.jpg" name="C:\wamp\www\REPtest\soon2.JPG" align="center" width="640" height="480" border="0"/>
+</a></p>
 <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th>
+                <th>issue/recommendation</th>
                 <th>Door Width</th>
                 <th>Aisle Width</th>
                 <th>Counter Height</th>
                 <th>Assistive Technology</th>
                 <th>accessible carpark location</th><!--accessible carpark location-->
-                        <th>accessible carpark distance</th><!--accessible carpark distance-->
+                <th>accessible carpark distance</th><!--accessible carpark distance-->
                                                  
                 </tr>
                 </thead>
@@ -155,11 +167,13 @@
                 </tfoot>
                 </table>        
 <h3 class="western" align="left">Tulgeen Riverside Nursery.</h3><a href="https://www.google.com/maps/place/Riverside+Nursery/@-36.6843936,149.8532666,17z/data=!3m1!4b1!4m5!3m4!1s0x6b3e826eee10d75b:0xecdaede0382d2ff8!8m2!3d-36.6843979!4d149.8554553" target="_blank">Show in Google maps</a>
-<p align="center"><img src="IMG_20191127_093441.jpg" name="Riverside Nursery" align="center" width="640" height="480" border="0"/>
+<p align="center"><a href="soon2.jpg" target="_blank">
+        <img src="IMG_20191127_093441.jpg" name="C:\wamp\www\REPtest\soon2.JPG" align="center" width="640" height="480" border="0"/>
+</a></p>
 <table border="1" style="width:500px" align="center">
         <thead>
         <tr>
-        <th>Issue</th><!--Is there an issue with the store-->
+        <th>issue/recommendation</th><!--Is there an issue with the store-->
         <th>Door Width</th><!--The width of the door open-->
         <th>Aisle Width</th><!--The width of the aisles in the shop-->
         <th>Counter Height</th><!--The height of the shop counter-->
@@ -173,7 +187,7 @@
         <td>N/A</td><!--Is there an issue with the store-->
         <td>3.2M</td><!--The width of the door open-->
         <td>1.8M</td><!--The width of the aisles in the shop-->
-        <td>1.6M</td><!--The height of the shop counter-->
+        <td>0.93M</td><!--The height of the shop counter-->
         <td>N/A</td><!--Assistive Technology in store-->
         <td> </td><!--accessible carpark location-->
         <td> M</td><!--accessible carpark distance-->
@@ -186,13 +200,13 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the aisles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
                 <th>Assistive Technology</th><!--Assistive Technology at the counter-->
                 <th>accessible carpark location</th><!--accessible carpark location-->
-                        <th>accessible carpark distance</th><!--accessible carpark distance-->
+                <th>accessible carpark distance</th><!--accessible carpark distance-->
                           
                 </tr>
                 </thead>
@@ -215,13 +229,13 @@
                 <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the aisles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
                 <th>Assistive Technology</th><!--Assistive Technology at the counter-->
                 <th>accessible carpark location</th><!--accessible carpark location-->
-                        <th>accessible carpark distance</th><!--accessible carpark distance-->                          
+                <th>accessible carpark distance</th><!--accessible carpark distance-->                          
                 </tr>
                 </thead>
                 <tbody>
@@ -242,7 +256,7 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
@@ -269,7 +283,7 @@
                 <table border="1" style="width:500px" align="center">
                         <thead>
                         <tr>
-                        <th>Issue</th><!--Is there an issue with the store-->
+                        <th>issue/recommendation</th><!--Is there an issue with the store-->
                         <th>Door Width</th><!--The width of the door open-->
                         <th>Aisle Width</th><!--The width of the aisles in the shop-->
                         <th>Counter Height</th><!--The height of the shop counter-->
@@ -296,7 +310,7 @@
                 <table border="1" style="width:500px" align="center">
                             <thead>
                             <tr>
-                            <th>Issue</th><!--Is there an issue with the store-->
+                            <th>issue/recommendation</th><!--Is there an issue with the store-->
                             <th>Door Width</th><!--The width of the door open-->
                             <th>Isle Width</th><!--The width of the aisles in the shop-->
                             <th>Counter Height</th><!--The height of the shop counter-->
@@ -313,7 +327,7 @@
                             <td> M</td><!--The height of the shop counter-->
                             <td> </td><!--Assistive Technology in store-->
                             <td> </td><!--accessible carpark location-->
-                                <td> M</td><!--accessible carpark distance-->
+                            <td> M</td><!--accessible carpark distance-->
                             </tr>
                             </table>
         <br>
@@ -323,13 +337,13 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
                 <th>Assistive Technology</th><!--Assistive Technology at the counter-->
                 <th>accessible carpark location</th><!--accessible carpark location-->
-                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
+                <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -350,13 +364,13 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
                 <th>Assistive Technology</th><!--Assistive Technology at the counter-->
                 <th>accessible carpark location</th><!--accessible carpark location-->
-                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
+                <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -377,13 +391,13 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
                 <th>Assistive Technology</th><!--Assistive Technology at the counter-->
                 <th>accessible carpark location</th><!--accessible carpark location-->
-                        <th>accessible carpark distance</th><!--accessible carpark distance-->          
+                <th>accessible carpark distance</th><!--accessible carpark distance-->          
                 </tr>
                 </thead>
                 <tbody>
@@ -404,7 +418,7 @@
         <table border="1" style="width:500px" align="center">
                 <thead>
                 <tr>
-                <th>Issue</th><!--Is there an issue with the store-->
+                <th>issue/recommendation</th><!--Is there an issue with the store-->
                 <th>Door Width</th><!--The width of the door open-->
                 <th>Aisle Width</th><!--The width of the isles in the shop-->
                 <th>Counter Height</th><!--The height of the shop counter-->
@@ -431,7 +445,7 @@
                 <table border="1" style="width:500px" align="center">
                         <thead>
                         <tr>
-                        <th>Issue</th><!--Is there an issue with the store-->
+                        <th>issue/recommendation</th><!--Is there an issue with the store-->
                         <th>Door Width</th><!--The width of the door open-->
                         <th>Aisle Width</th><!--The width of the isles in the shop-->
                         <th>Counter Height</th><!--The height of the shop counter-->
@@ -459,7 +473,7 @@
                 <table border="1" style="width:500px" align="center">
                         <thead>
                         <tr>
-                        <th>Issue</th><!--Is there an issue with the store-->
+                        <th>issue/recommendation</th><!--Is there an issue with the store-->
                         <th>Door Width</th><!--The width of the door open-->
                         <th>Aisle Width</th><!--The width of the isles in the shop-->
                         <th>Counter Height</th><!--The height of the shop counter-->
@@ -476,10 +490,37 @@
                         <td>1 M</td><!--The width of the aisles in the shop-->
                         <td>0.98 M</td><!--The height of the shop counter-->
                         <td>N/A </td><!--Assistive Technology in store-->
-                        <td>Opposite Dan Murphy's </td><!--accessible carpark location-->
+                        <td>Near Dan Murphy's </td><!--accessible carpark location-->
                         <td>82 M</td><!--accessible carpark distance-->
                         </tr>
                         </table>
-                <br>                                
+        <br>    
+        <br>
+                <h3 class="western" align="left">Dan Murphy's.</h3><!--The name of the store-->
+                <p align="center"><img src="soon.jpg" name="Dan Murphy's" align="center" width="640" height="480" border="0"/><!--Place photo here-->
+                <table border="1" style="width:500px" align="center">
+                        <thead>
+                        <tr>
+                        <th>issue/recommendation</th><!--Is there an issue with the store-->
+                        <th>Door Width</th><!--The width of the door open-->
+                        <th>Aisle Width</th><!--The width of the isles in the shop-->
+                        <th>Counter Height</th><!--The height of the shop counter-->
+                        <th>Assistive Technology</th><!--Assistive Technology in the store/office-->
+                        <th>accessible carpark location</th><!--accessible carpark location-->
+                        <th>accessible carpark distance</th><!--accessible carpark distance-->
+                                                  
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td> </td><!--Is there an issue with the store-->
+                        <td> M</td><!--The width of the door open-->
+                        <td> M</td><!--The width of the aisles in the shop-->
+                        <td> M</td><!--The height of the shop counter-->
+                        <td> </td><!--Assistive Technology in store-->
+                        <td>Opposite entrance </td><!--accessible carpark location-->
+                        <td>20 M</td><!--accessible carpark distance-->
+                        </tr>
+                        </table>            
 </body>
 </html>

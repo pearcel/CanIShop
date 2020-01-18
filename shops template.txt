@@ -1,10 +1,12 @@
 <br>
         <h3 class="western" align="left">.</h3><!--The name of the store-->
-                <p align="center"><img src="soon.jpg" name="" align="center" width="640" height="480" border="0"/><!--Place photo here-->
+                <p align="center"><a href="soon2.jpg" " target="_blank">
+        <img src="soon.jpg" name="C:\wamp\www\REPtest\soon2.JPG" align="center" width="640" height="480" border="0"/>
+</a></p><!--Place photo here-->
                 <table border="1" style="width:500px" align="center">
                         <thead>
                         <tr>
-                        <th>Issue</th><!--Is there an issue with the store-->
+                        <th>Issue</th><!--Is there an issue/recommendation with the store-->
                         <th>Door Width</th><!--The width of the door open-->
                         <th>Aisle Width</th><!--The width of the isles in the shop-->
                         <th>Counter Height</th><!--The height of the shop counter-->
@@ -16,7 +18,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                        <td> </td><!--Is there an issue with the store-->
+                        <td> </td><!--Is there an issue/recommendation with the store-->
                         <td> M</td><!--The width of the door open-->
                         <td> M</td><!--The width of the aisles in the shop-->
                         <td> M</td><!--The height of the shop counter-->
