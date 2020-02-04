@@ -1,0 +1,28 @@
+<br>
+    <h3 class="western" align="left">.</a>
+    <p align="center"><img src="soon.jpg" name="Image1" align="center" width="640" height="480" border="0"/>
+    <table border="1" style="width:500px" align="center">
+            <thead>
+                    <tr>
+                            <th scope="col">issue/recommendation</th>
+                            <th scope="col">Door Width</th>
+                            <th scope="col">Checkin Counter Height</th>
+                            <th scope="col">Disabled Accessible Rooms</th>
+                            <th scope="col">Assistive Technology</th>
+                            <th scope="col">Accessible carpark </th><!--accessible carpark location-->
+                            <th scope="col">Accessible carpark distance</th><!--accessible carpark distance-->
+                            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td></td><!--Is there an issue with accommadation-->
+            <td>m</td><!--The width of the door open-->
+            <td>m</td><!--The height of the checkin counter-->
+            <td> </td>
+            <td> </td><!--Assistive Technology in store-->
+            <td><a href="" </td><!--accessible carpark location-->
+            <td> M</td><!--accessible carpark distance-->
+            </tr>
+            </tbody>
+            </table>
+    <br>   
