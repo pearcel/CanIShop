@@ -17,18 +17,28 @@
 <br>
 <title>Accessible Parking</title>
 <form action="Access_parking.php" method="post">
-    <label>Shop or Offic</label><input type="text" name="Shop" id="Shop"><br>
+    <label>Shop or Office</label><input type="text" name="Shop" id="Shop"><br>
     <br>
     <label>Location of spaces</label><input type="text" name="Location" id="Location"><br>
     <br>
-    <label>Number of spots</label><input type="text" name="NumberOfSpots" id="NumberOfSpots"><br>
+    <label>Number of spaces</label>
+    <select name="NumberOfSpots">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5+">5+</option>
+      </select>
     <br>
+    <br>
+    <label>Type of parking</label>
     <select name="ParkingType">
           <option value="Public">Public</option>
           <option value="Private">Private</option>
           <option value="Reserved">Reserved</option>
           <option value="Closed">Closed</option>
-        </select>
+        </select><br>
+        <br>
     <input type="submit" value="Submit">
     </form>
 
