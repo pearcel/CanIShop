@@ -28,8 +28,8 @@ if ($result->num_rows > 0) {
         echo "<br> Aisle Width: ". $row["aisleWidth"] . "</br>";
         echo "<br> Counter Height: ". $row["counterHeight"] . "</br>";
         echo "<br> Assistive Technology: ". $row["assistiveTech"] . "</br>";
-        echo "<br> Accessible Parking Location: ". $row["accessibleParkingLocation"] . "</br>";
-        echo "<br> Accessible Parking Distance: ". $row["Distance2Parking"] . "</br>";
+        echo "<br> Accessible Parking Location: ". $row["accessCPdis"] . "</br>";
+        echo "<br> Accessible Parking Distance: ". $row["accessCPlocat"] . "</br>";
          }
         
     }

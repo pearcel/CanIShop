@@ -23,9 +23,9 @@ $doorWidth = mysqli_real_escape_string($conn, $_POST['doorWidth']);
 $aisleWidth = mysqli_real_escape_string($conn, $_POST['aisleWidth']);
 $counterHeight = mysqli_real_escape_string($conn, $_POST['counterHeight']);
 $assistiveTech = mysqli_real_escape_string($conn, $_POST['assistiveTech']);
-$accessibleParkingLocation = mysqli_real_escape_string($conn, $_POST['accessibleParkingLocation']);
-$Distance2Parking = mysqli_real_escape_string($conn, $_POST['Distance2Parking']);
-$sql = "INSERT INTO begashops (storename, storeType, storeLocation, issues, doorWidth, aisleWidth, counterHeight, assistiveTech, accessibleParkingLocation, Distance2Parking) VALUES ('$storename', '$storeType', '$storeLocation', '$issues', '$doorWidth', '$aisleWidth', '$counterHeight', '$assistiveTech', '$accessibleParkingLocation', '$Distance2Parking')";
+$accessCPlocat = mysqli_real_escape_string($conn, $_POST['accessCPlocat']);
+$accessCPdis = mysqli_real_escape_string($conn, $_POST['accessCPdis']);
+$sql = "INSERT INTO begashops (storename, storeType, storeLocation, issues, doorWidth, aisleWidth, counterHeight, assistiveTech, accessCPlocat, accessCPdis) VALUES ('$storename', '$storeType', '$storeLocation', '$issues', '$doorWidth', '$aisleWidth', '$counterHeight', '$assistiveTech', '$accessCPlocat', '$accessCPdis')";
 
 if($conn->query($sql) === TRUE){
     echo "record added sucessfully";
