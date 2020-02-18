@@ -74,16 +74,16 @@ if ($result->num_rows > 0){
 while($row = $result->fetch_assoc()) {
   echo '<table border="1" cellspacing="2" cellpadding="3"> 
       <tr> 
-          <td> <font face="Arial" font size="3" align="center">Store Name</font> </td> 
-          <td> <font face="Arial" font size="2" align="center">Store Location</font> </td> 
-          <td> <font face="Arial" font size="2" align="center">Store Type</font> </td>
-          <td> <font face="Arial" font size="2" align="center">Issue/recommendation</font> </td> 
-          <td> <font face="Arial" font size="2" align="center">Door Width</font> </td> 
-          <td> <font face="Arial" font size="2" align="center">Aisle Width</font> </td>
-          <td> <font face="Arial" font size="2" align="center">Counter Height</font> </td>
-          <td> <font face="Arial" font size="2" align="center">Assistive Technology </font> </td>
-          <td> <font face="Arial" font size="2" align="center">Accessible carpark location</font> </td>
-          <td> <font face="Arial" font size="2" align="center">Accessible carpark distance</font> </td>
+          <td> <font face="Arial" font size="5" align="center">Store Name</font> </td> 
+          <td> <font face="Arial" font size="5" align="center">Store Location</font> </td> 
+          <td> <font face="Arial" font size="5" align="center">Store Type</font> </td>
+          <td> <font face="Arial" font size="5" align="center">Issue/recommendation</font> </td> 
+          <td> <font face="Arial" font size="5" align="center">Door Width</font> </td> 
+          <td> <font face="Arial" font size="5" align="center">Aisle Width</font> </td>
+          <td> <font face="Arial" font size="5" align="center">Counter Height</font> </td>
+          <td> <font face="Arial" font size="5" align="center">Assistive Technology </font> </td>
+          <td> <font face="Arial" font size="5" align="center">Accessible carpark location</font> </td>
+          <td> <font face="Arial" font size="5" align="center">Accessible carpark distance</font> </td>
  </tr>';          
       
   echo "<td>". $row["storename"]. "</td>";
