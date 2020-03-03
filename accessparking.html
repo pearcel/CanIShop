@@ -35,7 +35,9 @@
           <option value="Public">Public</option>
           <option value="Private">Private</option>
           <option value="Reserved">Reserved</option>
-          <option value="Closed">Closed</option>
+          <option value="Customer">Customer</option>
+          <option value="Students">Students</option>
+          <option value="Patients">Patients</option>
         </select><br>
         <br>
     <input type="submit" value="Submit">
