@@ -16,9 +16,10 @@ if($conn->connect_error){
 }
 
 $name = mysqli_real_escape_string($conn, $_POST['name']);
+$date = mysqli_real_escape_string($conn, $_POST['date']);
 $sname = mysqli_real_escape_string($conn, $_POST['sname']);
 
-$sql = "INSERT INTO custinputf (name, sname) VALUES ('$name', '$sname')";
+$sql = "INSERT INTO custinputf (name, date, sname) VALUES ('$name', '$date', '$sname')";
 
 if($conn->query($sql) === TRUE){
     echo "record added sucessfully";
